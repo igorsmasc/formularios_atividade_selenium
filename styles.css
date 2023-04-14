@@ -1,0 +1,47 @@
+/* Definição de cores */
+:root {
+    --cor-primaria: #4285f4;
+    --cor-secundaria: #0f9d58;
+    --cor-terciaria: #db4437;
+    --cor-fundo: #f1f1f1;
+  }
+  
+  /* Estilos personalizados */
+  body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: var(--cor-fundo);
+  }
+  
+  h1 {
+    color: var(--cor-primaria);
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    color: var(--cor-primaria);
+    font-weight: bold;
+  }
+  
+  .btn {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: var(--cor-terciaria);
+    border-color: var(--cor-terciaria);
+  }
+  

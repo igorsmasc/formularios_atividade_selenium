@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Praticando formulários</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Praticando formulários</h1>
+        <form id="formulario">
+            <div class="form-group">
+                <label for="campoTexto">Campo de texto</label>
+                <input type="text" class="form-control" id="campoTexto" placeholder="Digite aqui">
+            </div>
+            <div class="form-group">
+                <label for="campoSenha">Campo de senha</label>
+                <input type="password" class="form-control" id="campoSenha" placeholder="Digite aqui">
+            </div>
+            <div class="form-group">
+                <label for="campoNumero">Campo de número</label>
+                <input type="number" class="form-control" id="campoNumero" placeholder="Digite aqui">
+            </div>
+            <div class="form-group">
+                <label for="campoTextoLongo">Campo de texto longo</label>
+                <textarea class="form-control" id="campoTextoLongo" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="campoData">Campo de data</label>
+                <input type="date" class="form-control" id="campoData">
+            </div>
+            <div class="form-group">
+                <label for="campoHora">Campo de hora</label>
+                <input type="time" class="form-control" id="campoHora">
+            </div>
+            <div class="form-group">
+                <label for="campoEmail">Campo de e-mail</label>
+                <input type="email" class="form-control" id="campoEmail" placeholder="Digite aqui">
+            </div>
+            <div class="form-group">
+                <label for="campoUrl">Campo de URL</label>
+                <input type="url" class="form-control" id="campoUrl" placeholder="Digite aqui">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Texto</th>
+                <th scope="col">Senha</th>
+                <th scope="col">Número</th>
+                <th scope="col">Texto longo</th>
+                <th scope="col">Data</th>
+                <th scope="col">Hora</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">URL</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+    </table>
+    <hr />
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-muted">&copy; 2023 <a href="https://www.linkedin.com/in/igor-mascarenhas/"
+                    target="_blank">Professor Igor Mascarenhas</a>. Código para aulas de automação.</span>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
